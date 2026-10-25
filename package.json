@@ -1,0 +1,33 @@
+{
+  "name": "kavara-text-to-voice",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Kavara Text to Voice — Floating always-on-top Windows text-to-speech reader built with Tauri v2 and React",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri",
+    "tauri:dev": "tauri dev",
+    "tauri:build": "tauri build",
+    "app:install": "powershell -NoProfile -ExecutionPolicy Bypass -File ./scripts/install.ps1",
+    "app:uninstall": "powershell -NoProfile -ExecutionPolicy Bypass -File ./scripts/uninstall.ps1"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2.2.0",
+    "@tauri-apps/plugin-autostart": "^2.2.0",
+    "@tauri-apps/plugin-clipboard-manager": "^2.2.0",
+    "@tauri-apps/plugin-global-shortcut": "^2.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.2.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.3"
+  }
+}

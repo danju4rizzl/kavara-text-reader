@@ -1,0 +1,56 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Frontend Build Outputs
+dist/
+dist-ssr/
+build/
+*.local
+
+# Tauri & Rust Build Artifacts
+src-tauri/target/
+src-tauri/gen/
+src-tauri/WixTools/
+**/target/
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+
+# Logs & Crash Dumps
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+bun.lockb.bak
+
+# TypeScript & Vite Caches
+*.tsbuildinfo
+.vite/
+.cache/
+
+# Editor & IDE Directories
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
